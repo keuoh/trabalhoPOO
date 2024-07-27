@@ -123,7 +123,7 @@ private class Aluno {
       }
 
       public Reserva realizarReserva (Espaco espaco) {
-            // Possibilita ao aluno realizar reservas de espaço.
+            // Possibilita ao aluno solicitar reservas de espaço.
       }
 
 }
