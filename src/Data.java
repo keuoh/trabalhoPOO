@@ -12,11 +12,11 @@ public class Data{
             this.mes = mes;
         }
         
-        if(dia > 0 && dia < 31){
+        if(dia > 0 && dia <= 31){
             this.dia = dia;
         }
         
-        if(hora >= 0 && hora < 24){
+        if(hora >= 8 && hora <= 22){
             this.hora = hora;
         }
         
@@ -26,6 +26,7 @@ public class Data{
     }
 
     public void visualizarHorario(){
+        System.out.println(hora + ":" + minuto + " - " + dia + "/" + mes);
         // esse metodo retorna a visualizacao de horario e data relacionado a reserva;     
     }
 }

@@ -79,20 +79,24 @@ public class Professor {
     }
     public void setVinculo(String vinculo) {
         if (vinculo != null) {
-            this.vinculo = vinculo;
+            if (vinculo == "administrador" || vinculo == "aluno" || vinculo == "professor") {
+                this.vinculo = vinculo;
+            }
         }
     }
 
-    public String getTelefone(){
+    public String getTelefone () {
         return telefone;
     }
-    public void setTelefone(String telefone) {
+    
+    public void setTelefone (String telefone){
         Matcher matcher = telefonePattern.matcher(telefone);
         if (matcher.matches()) {
             this.telefone = telefone;
         }
+    }
 
-}}
+}
 
 //metodos
 //public void excluirProfesor()
