@@ -21,7 +21,7 @@ private class Aluno {
         }
 
         public void setMatricula(String matricula){
-            if(matricula != null && matricula.length() > 6)){
+            if(matricula != null && matricula.length() > 6){
                 this.matricula = matricula;
             }
         }
