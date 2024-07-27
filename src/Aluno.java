@@ -41,7 +41,7 @@ private class Aluno {
         }
 
         public void setId(int id){
-            if(id < 0 && id.length() > 6)){
+            if(id < 0 && id.length() > 6){
                 this.id = id;
             }
         }
@@ -71,7 +71,7 @@ private class Aluno {
         }
 
         public void setSenha(String senha){
-            if(senha != null && senha.length() > 8)){
+            if(senha != null && senha.length() > 8){
                 this.senha = senha;
             }
         }
