@@ -1,4 +1,4 @@
-public class Aluno {
+class Aluno {
       private String curso;
       private String matricula;
       private String descricao;
