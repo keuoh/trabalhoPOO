@@ -16,12 +16,12 @@ private class Aluno {
             }
         }
         
-        public String getMatricula(){
+        public String getCurso(){
             return this.curso;
         }
 
         public void setMatricula(String matricula){
-            if(matricula != null){
+            if(matricula != null && matricula.length() > 6)){
                 this.matricula = matricula;
             }
         }
@@ -41,7 +41,7 @@ private class Aluno {
         }
 
         public void setId(int id){
-            if(id != null){
+            if(id != null && id.length() > 6)){
                 this.id = id;
             }
         }
@@ -71,7 +71,7 @@ private class Aluno {
         }
 
         public void setSenha(String senha){
-            if(senha != null){
+            if(senha != null && senha.length() > 8)){
                 this.senha = senha;
             }
         }
