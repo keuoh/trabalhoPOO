@@ -41,7 +41,7 @@ private class Aluno {
         }
 
         public void setId(int id){
-            if(id != null && id.length() > 6)){
+            if(id < 0 && id.length() > 6)){
                 this.id = id;
             }
         }
