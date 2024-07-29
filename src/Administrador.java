@@ -43,7 +43,7 @@ class Administrador{
     }
 
     public void excluirEquipamento(Equipamento equipamento){
-        // verifica se o equipamento ja e cadastrado
+        // verifica se o equipamento ja eh cadastrado
         //exclui equipamento 
         
     }
