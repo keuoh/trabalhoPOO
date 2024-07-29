@@ -17,7 +17,7 @@ class Aluno {
         }
         
         public String getCurso(){
-            return this.curso;
+            return curso;
         }
 
         public void setMatricula(String matricula){
@@ -27,7 +27,7 @@ class Aluno {
         }
         
         public String getMatricula(){
-            return this.matricula;
+            return matricula;
         }
 
         public void setDescricao(String descricao){
@@ -41,12 +41,12 @@ class Aluno {
         }
 
         public void setId(int id){
-            if(id < 0 && id.length() > 6){
+            if(String.valueOf(id).length() == 6){
                 this.id = id;
             }
         }
         
-        public String getId(){
+        public int getId(){
             return this.id;
         }
 
@@ -118,12 +118,12 @@ class Aluno {
             // Possibilita editar informações erradas ou desatualizadas do cadastro do aluno.
       }
 
-      public Reserva realizarReserva (Equipamento equipamento){
-            // Possibilita ao aluno solicitar reservas de quipamentos.
-      }
-
-      public Reserva realizarReserva (Espaco espaco) {
-            // Possibilita ao aluno solicitar reservas de espaço.
-      }
+//      public Reserva realizarReserva (Equipamento equipamento){
+//            // Possibilita ao aluno solicitar reservas de quipamentos.
+//      }
+//
+//      public Reserva realizarReserva (Espaco espaco) {
+//            // Possibilita ao aluno solicitar reservas de espaço.
+//      }
 
 }
