@@ -50,6 +50,8 @@ public class Professor {
     public void setNome(String nome) {
         if (nome != null && !nome.isEmpty()) {
             this.nome = nome;
+        }else if(nome == null){
+            System.out.println("Entrada invalida.");
         }
     }
 
