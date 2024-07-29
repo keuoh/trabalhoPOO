@@ -33,17 +33,17 @@ class Administrador{
     }
 
     public void excluirEquipamento(Equipamento equipamento){
-        // verifica se o equipamento ja é cadastrado
+        // verifica se o equipamento ja e cadastrado
         //exclui equipamento 
         
     }
 
     public void cadastrarEspaco(Espaco espaco){
-        //casdastra um espaço que pode ser reservado
+        //casdastra um espaco que pode ser reservado
     }
 
     public void excluirEspaco(Espaco espaco){
-        //verifica se o espaco ja é cadastrado
+        //verifica se o espaco ja eh cadastrado
         //exclui um espaco
     }
 
@@ -52,7 +52,7 @@ class Administrador{
     }
 
     public void atribuirDisponibilidade(){
-        //atribui aos equipamentos ou espaços o status de disponivel ou nao disponivel 
+        //atribui aos equipamentos ou espacos o status de disponivel ou nao disponivel 
     }
 
     public void adicionarReserva(){
@@ -63,10 +63,10 @@ class Administrador{
         //analisa as caracteristicas da reserva e define prioridade
     }
 
-    public Reserva atribuirManutençao(){
-        //verifica se o espaço ou o equipamento precisa de manutenção
-        //se for necessario fazer manutenção retorna Reserva
-        //e reserva o espaço ou equipamento para manutençao
+    public Reserva atribuirManutencao(){
+        //verifica se o espaco ou o equipamento precisa de manutencao
+        //se for necessario fazer manutencao retorna Reserva
+        //e reserva o espaco ou equipamento para manutencao
     }
 
 }
