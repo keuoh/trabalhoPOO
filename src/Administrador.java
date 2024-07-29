@@ -9,6 +9,16 @@ class Administrador{
     private String vinculo;
     private String telefone;
 
+    public Administrador(int id, String nome, String email, String senha, String vinculo, String telefone){
+        this.id = id;
+        this.nome = nome;
+        this.email = email;
+        this.senha = senha;
+        this.vinculo = vinculo;
+        this.telefone = telefone;
+        //this.listaDeReservas = new Reserva[];
+    }
+
     public int getId(){
         return id;
     }
